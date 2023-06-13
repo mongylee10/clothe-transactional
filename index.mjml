@@ -1,0 +1,305 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial" letter-spacing="2px" line-height="20px" font-size="14px" padding="0px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#e5e5e5">
+    <mj-wrapper padding-bottom="40px">
+
+      // top header
+      <mj-section padding-top="5px" padding-bottom="5px">
+        <mj-column padding-right="20px">
+          <mj-text align="center" font-size="10px">
+            <a href="#" style="color: #000000;">View in browser</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      // logo
+      <mj-section background-color="#ffffff" padding-bottom="40px" padding-top="20px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-image src="img/logo.png" alt="logo" width="150px" />
+        </mj-column>
+      </mj-section>
+
+
+      // main image
+      <mj-section background-color="#ffffff" padding-bottom="40px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-image src="img/main-img.jpg" alt="logo" width="450px" />
+        </mj-column>
+      </mj-section>
+
+      // main text
+      <mj-section background-color="#ffffff" padding-bottom="40px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-text align="center" font-size="30px" line-height="30px" font-weight="bold" padding-bottom="20px">
+            Thank you for the order
+          </mj-text>
+          <mj-text align="center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodati mat tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#1AA19C" />
+        </mj-column>
+      </mj-section>
+
+      // order number
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="40px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-text font-size="12px" color="#555555" font-weight="bold" padding-bottom="5px">
+            ORDER NUMBER
+          </mj-text>
+          <mj-text font-size="20px" font-weight="bold">
+            #1234567890
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#f0f0f0" border-width="1px" container-background-color="#ffffff" padding-left="20px" padding-right="20px" />
+        </mj-column>
+      </mj-section>
+
+      // products ordered
+      <mj-section background-color="#ffffff" padding-bottom="20px" padding-top="20px" >
+        <mj-column>
+          <mj-text font-size="12px" color="#555555" font-weight="bold" padding-left="20px" padding-right="20px">
+            PRODCUTS ORDERED (2)
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // product 1
+      <mj-section background-color="#ffffff" padding-bottom="60px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-image src="img/product1.jpg" alt="product 1" fluid-on-mobile="true" />
+        </mj-column>
+
+        <mj-column padding-left="20px" padding-right="20px" padding-top="20px">
+          <mj-text font-size="20px" font-weight="bold" padding-bottom="10px">
+            Product Name
+          </mj-text>
+          <mj-text font-size="20px" font-weight="bold" padding-bottom="20px">
+            $19
+          </mj-text>
+          <mj-text color="#555555" padding-bottom="20px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodati mat tempor.
+          </mj-text>
+          <mj-text color="#555555">
+            Quantity: 1
+          </mj-text>
+          <mj-text color="#555555">
+            Color: Black
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // product 2
+      <mj-section background-color="#ffffff" padding-bottom="40px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-image src="img/product2.jpg" alt="product 1" fluid-on-mobile="true" />
+        </mj-column>
+
+        <mj-column padding-left="20px" padding-right="20px" padding-top="20px">
+          <mj-text font-size="20px" font-weight="bold" padding-bottom="10px">
+            Product Name
+          </mj-text>
+          <mj-text font-size="20px" font-weight="bold" padding-bottom="20px">
+            $19
+          </mj-text>
+          <mj-text color="#555555" padding-bottom="20px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodati mat tempor.
+          </mj-text>
+          <mj-text color="#555555">
+            Quantity: 1
+          </mj-text>
+          <mj-text color="#555555">
+            Color: Black
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#f0f0f0" border-width="1px" container-background-color="#ffffff" padding-left="20px" padding-right="20px" />
+        </mj-column>
+      </mj-section>
+
+      // order details
+      <mj-section background-color="#ffffff" padding-top="20px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-text font-size="12px" color="#555555" font-weight="bold" padding-bottom="5px">
+            ORDER DETAILS
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="40px">
+        <mj-group>
+          <mj-column padding-left="20px" padding-right="20px">
+            <mj-text>
+              Payment Method
+            </mj-text>
+            <mj-text>
+              Subtotal
+            </mj-text>
+            <mj-text>
+              Shipping
+            </mj-text>
+            <mj-text padding-bottom="20px">
+              Tax
+            </mj-text>
+            <mj-text font-size="20px" font-weight="bold">
+              Total
+            </mj-text>
+          </mj-column>
+
+          <mj-column padding-left="20px" padding-right="20px">
+            <mj-text align="right">
+              Visa – 0000
+            </mj-text>
+            <mj-text align="right">
+              $38.00
+            </mj-text>
+            <mj-text align="right">
+              $4.99
+            </mj-text>
+            <mj-text align="right" padding-bottom="20px">
+              $4.99
+            </mj-text>
+            <mj-text align="right" font-size="20px" font-weight="bold">
+              $47.89
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#f0f0f0" border-width="1px" container-background-color="#ffffff" padding-left="20px" padding-right="20px" />
+        </mj-column>
+      </mj-section>
+
+
+      // shipping address
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="40px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-text font-size="12px" color="#555555" font-weight="bold" padding-bottom="20px">
+            SHIPPING ADDRESS
+          </mj-text>
+          <mj-text>
+            569 Pilgrim Ave.
+          </mj-text>
+          <mj-text>
+            Camden, NJ 09105
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#f0f0f0" border-width="1px" container-background-color="#ffffff" padding-left="20px" padding-right="20px" />
+        </mj-column>
+      </mj-section>
+
+      // refund details
+      <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="40px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-text color="#555555">
+            Please note that the payment is non-refundable in the case of cancellation. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // view order button
+      <mj-section background-color="#ffffff" padding-bottom="60px">
+        <mj-column>
+          <mj-button href="#" font-size="16px" font-weight="bold" background-color="#1aa19c" border-radius="30px" height="40px" width="150px">
+            View Order
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#1AA19C" />
+        </mj-column>
+      </mj-section>
+
+      // footer img
+      <mj-section>
+        <mj-column>
+          <mj-image src="img/footer.png" alt="footer image" />
+        </mj-column>
+      </mj-section>
+
+      // footer logo
+      <mj-section background-color="#2B303A" padding-top="40px" padding-bottom="10px">
+        <mj-column>
+          <mj-image src="img/white-logo.png" alt="footer logo" width="150px" />
+        </mj-column>
+      </mj-section>
+
+      // social
+      <mj-section background-color="#2B303A" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="20px" padding-right="20px">
+            <mj-social icon-size="35px" align="center">
+                <mj-social-element padding="10px" src="img/facebook.png" href="#"> 
+                </mj-social-element>
+                <mj-social-element padding="10px"  src="img/twitter.png" href="#"> 
+                </mj-social-element>
+                <mj-social-element padding="10px"  src="img/instagram.png" href="#"> 
+                </mj-social-element>
+                <mj-social-element padding="10px"  src="img/linkedin.png" href="#"> 
+                </mj-social-element>
+            </mj-social>
+        </mj-column>
+      </mj-section>
+
+      // footer description
+      <mj-section background-color="#2B303A" padding-bottom="40px" >
+        <mj-column padding-left="20px" padding-right="20px" >
+          <mj-text color="#c9c9c9" font-size="12px">
+            Etiam quis tempus ex. Sed vitae ipsum suscipit, ultricies odio vitae, suscipit massa. Sed tempus ipsum eget diam aliquam maximus. Cras accumsan urna vel rutrum lobortis. Maecenas tristique purus vel ex tempor consequat. Curabitur dui massa, congue sed sem at, rhoncus imperdiet sem. Fusce ac orci fermentum, malesuada dolor a, cursus augue. Quisque porttitor sapien arcu, quis iaculis nisi faucibus eget. Vestibulum eu velit rhoncus, aliquam ante eget, tristique diam dui massa, congue sed sem at, rhoncus usce ac orci fermentum,.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      // divider
+      <mj-section>
+        <mj-column>
+          <mj-divider border-color="#c9c9c9" border-width="1px" container-background-color="#2b303a" padding-left="20px" padding-right="20px" />
+        </mj-column>
+      </mj-section>
+
+
+      // bottom nav
+      <mj-section background-color="#2B303A" padding-top="20px" padding-bottom="20px">
+        <mj-column padding-left="20px" padding-right="20px">
+          <mj-text align="center" font-size="12px">
+            <span><a href="#" style="color: #c9c9c9;">Manage Preferenes</a></span>&nbsp;
+            <span><a href="#" style="color: #c9c9c9;">Help & Contact</a></span>&nbsp;
+            <span><a href="#" style="color: #c9c9c9;">Privacy Notice</a></span>&nbsp;
+            <span><a href="#" style="color: #c9c9c9;">View Online</a></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
